@@ -1,0 +1,14 @@
+Project Focus:
+-The focus of this project is on the deployment of data structures
+-Try to design the best and most efficient structure for the given problem
+-The classes should be designed to use efficient and meaningful inheritance 
+-No piece of the program should be recoded. Use overriding as required
+-Pay attention to inheritance vs compostition ("is" vs "has" relation) and avoid unecessary inheritance
+-Define the access level of the variables efficiently. Each variable should be only directly accessible in necessary areas
+-Any action should be followed with a reasonable message to describe the service and result of it
+-The layout and design of the output should also be clear for the user
+
+Project Description:
+The main foal of this project is to create a bank and service the customers with basic operations
+The direct user of this program is a bank employee which uses the program to provide services to the bank customers
+
