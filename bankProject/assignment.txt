@@ -12,3 +12,58 @@ Project Description:
 The main foal of this project is to create a bank and service the customers with basic operations
 The direct user of this program is a bank employee which uses the program to provide services to the bank customers
 
+BANK
+-has name
+-has address
+-has working hours
+-each customer can open a bank account in the bank
+-each bank account can consist of potentially multiple saving sub accounts or checking sub accounts
+-bank offers 100 bonus to first saving sub account of each customer
+-customers should be able to withdraw from or deposit into their sub accounts
+-bank should be able to tell how many bank accounts it has
+-bank should be able to tell how many saving sub accounts it has 
+-bank should be able to tell how many checking sub accounts it has 
+-bank should be able to show the information of its accounts sorted based on balance
+-bank should provide a menu for the bank employee to choose from services:
+ 1. See number of bank accounts
+ 2. See number of saving accounts
+ 3. See number of checking accounts
+ 4. Open a bank accounts
+ 5. Close a bank account using its bank account number
+ 6. See information of an account and modify it based on its account number
+ 7. See detailed information of all the accounts
+ 8. See a brief information of all accounts sorted based on their aggregated balance
+ 
+BANK ACCOUNT
+-has account number starting from BNK10000
+-has information of the customer: first name, last name, SSN
+-can have one, none, or multiple saving sub accounts
+-can have one, none, or multiple checking sub accounts
+-while modifying, the following services should be provided 
+ 1. Open saving sub account
+ 2. Open checking sub account
+ 3. Modify a sub account
+ 4. Close a sub account
+ 5. Detailed bank account info with sub accounts sorted based on balance
+ 6. Brief bank account info
+ 
+SAVING SUB ACCOUNT
+-has saving sub account number that is unique starting from SAV1000
+-has balance that customer can deposit or withdraw from
+-while modifying the following services should be provided 
+ 1. Deposit
+ 2. Withdraw
+
+CHECKING SUB ACCOUNT
+-has checking sub account number that is unique starting from SAV1000
+-has maximum capacity that can be defined by customer
+-can be locked or unlocked by customer request
+-has balance that customer can deposit to or withdraw from
+-if account is locked, no deposit or withdrawl should be allowed
+-if deposit would cause balance to exceed max capacity, it should be denied
+-while modifying, the following services should be provided 
+ 1. Deposit
+ 2. Withdraw
+ 3. Set max
+ 4. Lock
+ 5. Unlock
